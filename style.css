@@ -267,7 +267,10 @@ color:#616161;
     margin-left:13px;
 }
 /* media -quries */
-@media(max-width:700px){
+@media(max-width:800px){
+    .main-header{
+        padding-left:4px;
+    }
  .nav-bar{
     display:block;
     cursor:pointer;
@@ -380,6 +383,10 @@ color:#616161;
     .main-header{
         padding-left:10px;
         /* padding-right:10px; */
+    }
+    .show{
+        transform:translateX(-20px);
+       
     }
     .showcase p {
         width:80%;
